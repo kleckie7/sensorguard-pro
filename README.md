@@ -6,13 +6,21 @@
 
 A Python-based simulation tool that assesses cybersecurity threats across ~162 redundant sensors in an eVTOL aircraft.
 
+Demonstrates real-time detection of spoofing, tampering, integrity breaches, and anomalies.
+
+## Demo
+
+![SensorGuard Pro Dashboard](screenshot.png)
+
 ## Features
 - Realistic sensor simulation with redundancy
-- Dynamic breach injection (spoofing, tampering, anomalies) — different every run
+- Dynamic breach injection — different every run
 - 5-phase cybersecurity methodology
-- Interactive Tkinter dashboard with real-time color-coded alerts
-- Detailed logging
+- Interactive Tkinter dashboard with color-coded alerts
+- Detailed logging (cleared per run)
 
 ## How to Run
 ```bash
+git clone https://github.com/kleckie7/sensorguard-pro.git
+cd sensorguard-pro
 python3 main.py
